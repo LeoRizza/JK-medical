@@ -1,0 +1,107 @@
+@media (max-width: 600px) {
+
+    .lineaSeparadoraDetalles {
+        border-width: 1px;
+    }
+
+    .linkNav {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        padding-top: 6vh;
+        padding-bottom: 0;
+    }
+
+    .fondoheader {
+        padding-bottom: 0;
+    }
+
+    .logo {
+        width: 126px;
+    }
+
+    .logoAzul {
+        width: 126px;
+    }
+
+    .texto_bienvenidos {
+        margin-top: 23px;
+        padding: 23px 0;
+
+        .bienvenidos {
+            font-size: 5000px;
+        }
+    }
+    .fondoHeader {
+        background-color: $bgColor1;
+        padding: 25px 37px;
+    }
+
+    .container_bienvenidos {
+        padding: 50px 90px 50px 75px;
+    }
+
+    .detalles {
+
+        .detalles1 {
+            width: 100vw;
+        }
+
+        .detalles_fondo {
+            width: 100vw;
+            height: 200px;
+        }
+
+        .detalles2 {
+            width: 100vw;
+        }
+
+        .detalles_fondo2 {
+            width: 100%;
+            height: 200px;
+        }
+    }
+
+    .detalles {
+        .detalles1 {
+            padding-left: 42px;
+        }
+    
+        .detalles2 {
+            padding-left: 42px;
+        }
+    }
+}
+
+@media (max-width: 991px) and (min-width: 601px) {
+    .linkNav {
+        text-align: center;
+    }
+
+    .navbar-nav {
+        padding-top: 6vh;
+        padding-bottom: 0;
+    }
+
+    .fondoheader {
+        padding-bottom: 0;
+    }
+
+    .logoAzul {
+        max-width: 290px;
+    }
+
+    .container_bienvenidos {
+        padding: 70px 120px 70px 95px;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .navbar-expand-lg .navbar-nav .nav-link {
+        padding-right: 24px;
+        padding-left: 24px;
+    }
+
+}

@@ -1,0 +1,251 @@
+@font-face {
+  font-family: "Neue June";
+  src: url("../font/Matt Chansky - Neue June Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: "Neue Thin";
+  src: url("../font/Matt Chansky - Neue June Light.otf") format("opentype");
+}
+@font-face {
+  font-family: "Neue Bold";
+  src: url("../font/Matt Chansky - Neue June Bold.otf") format("opentype");
+}
+header {
+  grid-area: header;
+}
+
+.fondoHeader {
+  background-color: #003E8E;
+  padding: 50px 74px;
+}
+
+.navbar a {
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+
+a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo {
+  max-width: 256px;
+}
+
+#navbarNav {
+  justify-content: flex-end;
+}
+
+.linkNav {
+  font-family: "Neue June", sans-serif;
+  font-size: 15px;
+}
+.linkNav:hover {
+  color: #00C7F4;
+}
+
+.navbar-toggler {
+  border: #FFFFFF solid 1px;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28239, 239, 239, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.img_chicas {
+  width: 100vw;
+}
+
+.logoAzul {
+  max-width: 490px;
+}
+
+.container_bienvenidos {
+  padding: 100px 179px 100px 150px;
+}
+.container_bienvenidos .texto_bienvenidos {
+  border-top: 1px solid #003E8E;
+  border-bottom: 1px solid #003E8E;
+  margin-top: 46px;
+  padding: 46px 0;
+}
+.container_bienvenidos .texto_bienvenidos .bienvenidos {
+  color: #003E8E;
+  font-size: 60px;
+  font-weight: 300;
+}
+.container_bienvenidos .texto_bienvenidos p {
+  font-family: "Neue Thin", sans-serif;
+  font-size: 20px;
+  line-height: 170%;
+}
+
+.detalles span {
+  font-family: "Neue Bold", sans-serif;
+}
+.detalles .lineaSeparadoraDetalles {
+  border: 3px solid #003E8E;
+  max-height: 3px;
+  max-width: 106px;
+}
+.detalles .detalles1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 84px;
+  height: 560px;
+}
+.detalles .detalles1 p {
+  font-family: "Neue Thin", sans-serif;
+  font-size: 22px;
+  color: #003E8E;
+  font-weight: 300;
+  line-height: 35px;
+  margin-right: 54px;
+  margin-top: 22px;
+}
+.detalles .detalles1 h3 {
+  font-family: "Neue Thin", sans-serif;
+  color: #003E8E;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 54px;
+  width: 60%;
+  line-height: 53px;
+}
+.detalles .detalles2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 84px;
+  font-family: "Neue June", sans-serif;
+  font-size: 22px;
+  color: #003E8E;
+  font-weight: 300;
+  line-height: 35px;
+  height: 560px;
+}
+.detalles .detalles2 p {
+  font-family: "Neue Thin", sans-serif;
+  font-size: 22px;
+  color: #003E8E;
+  font-weight: 300;
+  line-height: 35px;
+  margin-right: 54px;
+  margin-top: 22px;
+}
+.detalles .detalles2 h3 {
+  font-family: "Neue Thin", sans-serif;
+  font-size: 50px;
+  font-weight: 300;
+  margin-bottom: 54px;
+  width: 60%;
+  line-height: 53px;
+}
+.detalles .detalles_fondo {
+  background-color: #003E8E;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 560px;
+}
+.detalles .detalles_fondo img {
+  width: 15vw;
+}
+.detalles .detalles_fondo2 {
+  background-color: #00C7F4;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 560px;
+}
+.detalles .detalles_fondo2 img {
+  width: 17vw;
+}
+
+@media (max-width: 600px) {
+  .lineaSeparadoraDetalles {
+    border-width: 1px;
+  }
+  .linkNav {
+    text-align: center;
+  }
+  .navbar-nav {
+    padding-top: 6vh;
+    padding-bottom: 0;
+  }
+  .fondoheader {
+    padding-bottom: 0;
+  }
+  .logo {
+    width: 126px;
+  }
+  .logoAzul {
+    width: 126px;
+  }
+  .texto_bienvenidos {
+    margin-top: 23px;
+    padding: 23px 0;
+  }
+  .texto_bienvenidos .bienvenidos {
+    font-size: 5000px;
+  }
+  .fondoHeader {
+    background-color: #003E8E;
+    padding: 25px 37px;
+  }
+  .container_bienvenidos {
+    padding: 50px 90px 50px 75px;
+  }
+  .detalles .detalles1 {
+    width: 100vw;
+  }
+  .detalles .detalles_fondo {
+    width: 100vw;
+    height: 200px;
+  }
+  .detalles .detalles2 {
+    width: 100vw;
+  }
+  .detalles .detalles_fondo2 {
+    width: 100%;
+    height: 200px;
+  }
+  .detalles .detalles1 {
+    padding-left: 42px;
+  }
+  .detalles .detalles2 {
+    padding-left: 42px;
+  }
+}
+@media (max-width: 991px) and (min-width: 601px) {
+  .linkNav {
+    text-align: center;
+  }
+  .navbar-nav {
+    padding-top: 6vh;
+    padding-bottom: 0;
+  }
+  .fondoheader {
+    padding-bottom: 0;
+  }
+  .logoAzul {
+    max-width: 290px;
+  }
+  .container_bienvenidos {
+    padding: 70px 120px 70px 95px;
+  }
+}
+@media (min-width: 992px) {
+  .navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
