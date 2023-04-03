@@ -82,10 +82,14 @@ a {
 }
 .container_bienvenidos .texto_bienvenidos p {
   font-family: "Neue Thin", sans-serif;
+  color: #003E8E;
   font-size: 20px;
   line-height: 170%;
 }
 
+.detalles {
+  margin: 0;
+}
 .detalles span {
   font-family: "Neue Bold", sans-serif;
 }
@@ -95,10 +99,12 @@ a {
   max-width: 106px;
 }
 .detalles .detalles1 {
+  display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 84px;
-  height: auto;
+  vertical-align: middle;
+  padding-left: 95px;
+  height: 560px;
 }
 .detalles .detalles1 p {
   font-family: "Neue Thin", sans-serif;
@@ -106,15 +112,15 @@ a {
   color: #003E8E;
   font-weight: 300;
   line-height: 35px;
-  margin: 32px 54px 20px 0px;
+  margin: 22px 54px 22px 0px;
 }
 .detalles .detalles1 h3 {
   font-family: "Neue Thin", sans-serif;
   color: #003E8E;
   font-size: 50px;
   font-weight: 300;
-  margin: 40px 0px 54px 0px;
-  width: 60%;
+  margin-bottom: 54px;
+  width: 70%;
   line-height: 53px;
 }
 .detalles .detalles2 {
@@ -127,7 +133,7 @@ a {
   color: #003E8E;
   font-weight: 300;
   line-height: 35px;
-  height: auto;
+  height: 560px;
 }
 .detalles .detalles2 p {
   font-family: "Neue Thin", sans-serif;
@@ -135,7 +141,7 @@ a {
   color: #003E8E;
   font-weight: 300;
   line-height: 35px;
-  margin: 32px 54px 20px 0px;
+  margin: 22px 54px 22px 0px;
 }
 .detalles .detalles2 h3 {
   font-family: "Neue Thin", sans-serif;
@@ -153,7 +159,7 @@ a {
   height: auto;
 }
 .detalles .detalles_fondo img {
-  width: 15vw;
+  width: 220px;
 }
 .detalles .detalles_fondo2 {
   background-color: #00C7F4;
@@ -163,7 +169,7 @@ a {
   height: auto;
 }
 .detalles .detalles_fondo2 img {
-  width: 17vw;
+  width: 220px;
 }
 
 .obras_sociales {
@@ -193,6 +199,7 @@ a {
   text-align: center;
   margin: 0;
   margin-bottom: 65px;
+  line-height: 1.15;
 }
 .seccion_servicios .containerServicios {
   display: flex;
@@ -236,12 +243,15 @@ a {
   align-items: center;
   flex-direction: column;
   margin-top: 150px;
+  font-family: "Neue Thin", sans-serif;
+  line-height: 1.15;
 }
 .seccion_contacto .bgazul_mail p {
   font-size: 60px;
+  font-family: "Neue Thin", sans-serif;
   color: #FFFFFF;
   font-weight: 300;
-  margin-bottom: 50px;
+  margin: 50px 0 45px 0;
 }
 .seccion_contacto .bgazul_mail p span {
   font-family: "Neue Bold", sans-serif;
@@ -263,6 +273,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
+  line-height: 1.15;
 }
 .seccion_contacto .qr_contacto .imagenQr {
   width: 218px;
@@ -393,6 +404,9 @@ footer p span {
     width: 100vw;
     height: 200px;
   }
+  .detalles .detalles_fondo img {
+    width: 40%;
+  }
   .detalles .detalles2 {
     width: 100vw;
     padding: 0;
@@ -416,6 +430,9 @@ footer p span {
     width: 100%;
     height: 200px;
   }
+  .detalles .detalles_fondo2 img {
+    width: 40%;
+  }
   .obras_sociales {
     display: none;
   }
@@ -437,16 +454,17 @@ footer p span {
     flex-direction: column;
   }
   .seccion_contacto .bgazul_mail {
-    height: 320px;
-    margin-top: 50px;
+    height: 200px;
+    margin: 80px 0 50px 0;
   }
   .seccion_contacto .bgazul_mail p {
-    font-size: 30px;
-    margin-bottom: 30px;
+    font-size: 20px;
+    margin: 0;
   }
   .seccion_contacto .bgazul_mail button {
     font-size: 20px;
-    padding: 20px 35px;
+    padding: 12px 40px;
+    margin-top: 30px;
   }
   .seccion_contacto .qr_contacto {
     margin: 40px 0;
@@ -495,28 +513,31 @@ footer p span {
     height: auto;
   }
   .detalles .detalles1 {
-    height: auto;
+    height: 400px;
+    padding-left: 70px;
   }
   .detalles .detalles1 h3 {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 25px;
+    line-height: 1.55;
     margin: 20px 0px;
   }
   .detalles .detalles1 p {
     font-size: 15px;
-    line-height: 25px;
+    line-height: 1.15;
   }
   .detalles .detalles2 {
-    height: auto;
+    height: 400px;
+    padding-left: 70px;
   }
   .detalles .detalles2 h3 {
-    font-size: 30px;
-    line-height: 40px;
+    font-size: 25px;
+    line-height: 1.55;
     margin: 20px 0px;
   }
   .detalles .detalles2 p {
     font-size: 15px;
-    line-height: 25px;
+    line-height: 1.15;
+    margin-right: 20px;
   }
   .seccion_servicios .containerServicios {
     display: flex;

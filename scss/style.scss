@@ -75,10 +75,9 @@ a {
             font-weight: 300;
         }
 
-
-
         p {
             font-family: 'Neue Thin', sans-serif;
+            color: $color1;
             font-size: 20px;
             line-height: 170%;
         }
@@ -87,10 +86,11 @@ a {
 
 .detalles {
 
+    margin: 0;
+
     span {
         font-family: 'Neue Bold', sans-serif;
     }
-
 
     .lineaSeparadoraDetalles {
         border: 3px solid $color1;
@@ -99,10 +99,12 @@ a {
     }
 
     .detalles1 {
+        display: flex;
         flex-direction: column;
         justify-content: center;
-        padding-left: 84px;
-        height: auto;
+        vertical-align: middle;
+        padding-left: 95px;
+        height: 560px;
 
         p {
             font-family: 'Neue Thin', sans-serif;
@@ -110,7 +112,7 @@ a {
             color: $color1;
             font-weight: 300;
             line-height: 35px;
-            margin: 32px 54px 20px 0px;
+            margin: 22px 54px 22px 0px;
         }
 
         h3 {
@@ -118,8 +120,8 @@ a {
             color: $color1;
             font-size: 50px;
             font-weight: 300;
-            margin: 40px 0px 54px 0px;
-            width: 60%;
+            margin-bottom: 54px;
+            width: 70%;
             line-height: 53px;
         }
 
@@ -135,7 +137,7 @@ a {
         color: $color1;
         font-weight: 300;
         line-height: 35px;
-        height: auto;
+        height: 560px;
 
         p {
             font-family: 'Neue Thin', sans-serif;
@@ -143,7 +145,7 @@ a {
             color: $color1;
             font-weight: 300;
             line-height: 35px;
-            margin: 32px 54px 20px 0px;
+            margin: 22px 54px 22px 0px;
         }
 
         h3 {
@@ -164,7 +166,7 @@ a {
         height: auto;
 
         img {
-            width: 15vw;
+            width: 220px;
         }
     }
 
@@ -176,7 +178,7 @@ a {
         height: auto;
 
         img {
-            width: 17vw;
+            width: 220px;
         }
     }
 }
@@ -209,6 +211,7 @@ a {
         text-align: center;
         margin: 0;
         margin-bottom: 65px;
+        line-height: 1.15;
     }
 
     .containerServicios {
@@ -231,7 +234,6 @@ a {
 
             img {
                 height: 100px;
-
             }
 
             p {
@@ -266,12 +268,15 @@ a {
         align-items: center;
         flex-direction: column;
         margin-top: 150px;
-
+        font-family: 'Neue Thin', sans-serif;
+        line-height: 1.15;
+        
         p {
             font-size: 60px;
+            font-family: 'Neue Thin', sans-serif;
             color: $color2;
             font-weight: 300;
-            margin-bottom: 50px;
+            margin: 50px 0 45px 0;
 
             span {
                 font-family: 'Neue Bold', sans-serif;
@@ -298,6 +303,7 @@ a {
         display: flex;
         justify-content: center;
         align-items: center;
+        line-height: 1.15;
 
         .imagenQr {
             width: 218px;
