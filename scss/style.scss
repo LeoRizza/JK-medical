@@ -75,7 +75,7 @@ a {
             font-weight: 300;
         }
 
-        
+
 
         p {
             font-family: 'Neue Thin', sans-serif;
@@ -99,11 +99,10 @@ a {
     }
 
     .detalles1 {
-        display: flex;
         flex-direction: column;
         justify-content: center;
         padding-left: 84px;
-        height: 560px;
+        height: auto;
 
         p {
             font-family: 'Neue Thin', sans-serif;
@@ -111,8 +110,7 @@ a {
             color: $color1;
             font-weight: 300;
             line-height: 35px;
-            margin-right: 54px;
-            margin-top: 22px;
+            margin: 32px 54px 20px 0px;
         }
 
         h3 {
@@ -120,7 +118,7 @@ a {
             color: $color1;
             font-size: 50px;
             font-weight: 300;
-            margin-bottom: 54px;
+            margin: 40px 0px 54px 0px;
             width: 60%;
             line-height: 53px;
         }
@@ -137,7 +135,7 @@ a {
         color: $color1;
         font-weight: 300;
         line-height: 35px;
-        height: 560px;
+        height: auto;
 
         p {
             font-family: 'Neue Thin', sans-serif;
@@ -145,15 +143,14 @@ a {
             color: $color1;
             font-weight: 300;
             line-height: 35px;
-            margin-right: 54px;
-            margin-top: 22px;
+            margin: 32px 54px 20px 0px;
         }
 
         h3 {
             font-family: 'Neue Thin', sans-serif;
             font-size: 50px;
             font-weight: 300;
-            margin-bottom: 54px;
+            margin: 40px 0px 54px 0px;
             width: 60%;
             line-height: 53px;
         }
@@ -164,7 +161,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 560px;
+        height: auto;
 
         img {
             width: 15vw;
@@ -176,7 +173,7 @@ a {
         display: flex;
         align-items: center;
         justify-content: center;
-        height: 560px;
+        height: auto;
 
         img {
             width: 17vw;
@@ -184,6 +181,185 @@ a {
     }
 }
 
+.obras_sociales {
+    display: flex;
+    justify-content: center;
+}
 
+.obras_sociales_mobile {
+    display: none;
+}
+
+.seccion_servicios {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: $color1;
+    font-family: 'Neue Thin', sans-serif;
+
+    span {
+        font-family: 'Neue Bold', sans-serif;
+    }
+
+    .titulo_servicios {
+        font-size: 26px;
+        font-family: 'Neue Thin', sans-serif;
+        width: 55%;
+        text-align: center;
+        margin: 0;
+        margin-bottom: 65px;
+    }
+
+    .containerServicios {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        div {
+
+            width: 300px;
+            height: 300px;
+            border: 2px solid $color1;
+            border-radius: 30px;
+            margin: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+
+            img {
+                height: 100px;
+
+            }
+
+            p {
+                font-size: 20px;
+                margin-top: 42px;
+            }
+
+            .lineaSeparadoraServicios {
+                border: 1px solid $color1;
+                height: 1px;
+                max-width: 85px;
+                margin-top: 40px;
+            }
+        }
+
+
+    }
+
+}
+
+.seccion_contacto {
+
+    .bgazul_mail {
+        width: 100%;
+        height: 720px;
+        background-image: url(../img/bgimagen.png);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 150px;
+
+        p {
+            font-size: 60px;
+            color: $color2;
+            font-weight: 300;
+            margin-bottom: 50px;
+
+            span {
+                font-family: 'Neue Bold', sans-serif;
+            }
+        }
+
+        button {
+            font-size: 31px;
+            border: 1px solid $color2;
+            background: none;
+            border-radius: 60px;
+            padding: 30px 70px;
+            cursor: pointer;
+
+            a {
+                text-decoration: none;
+                color: $color2;
+            }
+        }
+    }
+
+    .qr_contacto {
+        margin: 115px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .imagenQr {
+            width: 218px;
+        }
+
+        .datos_contacto {
+            margin-left: 64px;
+
+            .logoAzulContacto {
+                width: 500px;
+            }
+
+            .datosContacto {
+                margin-top: 40px;
+                border-left: 4px solid $color1;
+                padding-left: 43px;
+
+                p {
+                    color: $color1;
+                    font-size: 29px;
+                    font-family: 'Neue Thin', sans-serif;
+                    margin: 0;
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+
+}
+
+footer {
+    background-color: $bgColor1;
+    text-align: center;
+
+    p {
+        font-family: 'Neue Thin', sans-serif;
+        color: $color2;
+        padding: 44px 0;
+        margin: 0;
+        font-size: 18px;
+
+        span {
+            font-family: 'Neue Bold', sans-serif;
+        }
+    }
+}
+
+.float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    font-size: 30px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+}
 
 @import "medias";

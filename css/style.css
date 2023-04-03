@@ -95,11 +95,10 @@ a {
   max-width: 106px;
 }
 .detalles .detalles1 {
-  display: flex;
   flex-direction: column;
   justify-content: center;
   padding-left: 84px;
-  height: 560px;
+  height: auto;
 }
 .detalles .detalles1 p {
   font-family: "Neue Thin", sans-serif;
@@ -107,15 +106,14 @@ a {
   color: #003E8E;
   font-weight: 300;
   line-height: 35px;
-  margin-right: 54px;
-  margin-top: 22px;
+  margin: 32px 54px 20px 0px;
 }
 .detalles .detalles1 h3 {
   font-family: "Neue Thin", sans-serif;
   color: #003E8E;
   font-size: 50px;
   font-weight: 300;
-  margin-bottom: 54px;
+  margin: 40px 0px 54px 0px;
   width: 60%;
   line-height: 53px;
 }
@@ -129,7 +127,7 @@ a {
   color: #003E8E;
   font-weight: 300;
   line-height: 35px;
-  height: 560px;
+  height: auto;
 }
 .detalles .detalles2 p {
   font-family: "Neue Thin", sans-serif;
@@ -137,14 +135,13 @@ a {
   color: #003E8E;
   font-weight: 300;
   line-height: 35px;
-  margin-right: 54px;
-  margin-top: 22px;
+  margin: 32px 54px 20px 0px;
 }
 .detalles .detalles2 h3 {
   font-family: "Neue Thin", sans-serif;
   font-size: 50px;
   font-weight: 300;
-  margin-bottom: 54px;
+  margin: 40px 0px 54px 0px;
   width: 60%;
   line-height: 53px;
 }
@@ -153,7 +150,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 560px;
+  height: auto;
 }
 .detalles .detalles_fondo img {
   width: 15vw;
@@ -163,10 +160,162 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 560px;
+  height: auto;
 }
 .detalles .detalles_fondo2 img {
   width: 17vw;
+}
+
+.obras_sociales {
+  display: flex;
+  justify-content: center;
+}
+
+.obras_sociales_mobile {
+  display: none;
+}
+
+.seccion_servicios {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #003E8E;
+  font-family: "Neue Thin", sans-serif;
+}
+.seccion_servicios span {
+  font-family: "Neue Bold", sans-serif;
+}
+.seccion_servicios .titulo_servicios {
+  font-size: 26px;
+  font-family: "Neue Thin", sans-serif;
+  width: 55%;
+  text-align: center;
+  margin: 0;
+  margin-bottom: 65px;
+}
+.seccion_servicios .containerServicios {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.seccion_servicios .containerServicios div {
+  width: 300px;
+  height: 300px;
+  border: 2px solid #003E8E;
+  border-radius: 30px;
+  margin: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.seccion_servicios .containerServicios div img {
+  height: 100px;
+}
+.seccion_servicios .containerServicios div p {
+  font-size: 20px;
+  margin-top: 42px;
+}
+.seccion_servicios .containerServicios div .lineaSeparadoraServicios {
+  border: 1px solid #003E8E;
+  height: 1px;
+  max-width: 85px;
+  margin-top: 40px;
+}
+
+.seccion_contacto .bgazul_mail {
+  width: 100%;
+  height: 720px;
+  background-image: url(../img/bgimagen.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 150px;
+}
+.seccion_contacto .bgazul_mail p {
+  font-size: 60px;
+  color: #FFFFFF;
+  font-weight: 300;
+  margin-bottom: 50px;
+}
+.seccion_contacto .bgazul_mail p span {
+  font-family: "Neue Bold", sans-serif;
+}
+.seccion_contacto .bgazul_mail button {
+  font-size: 31px;
+  border: 1px solid #FFFFFF;
+  background: none;
+  border-radius: 60px;
+  padding: 30px 70px;
+  cursor: pointer;
+}
+.seccion_contacto .bgazul_mail button a {
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.seccion_contacto .qr_contacto {
+  margin: 115px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.seccion_contacto .qr_contacto .imagenQr {
+  width: 218px;
+}
+.seccion_contacto .qr_contacto .datos_contacto {
+  margin-left: 64px;
+}
+.seccion_contacto .qr_contacto .datos_contacto .logoAzulContacto {
+  width: 500px;
+}
+.seccion_contacto .qr_contacto .datos_contacto .datosContacto {
+  margin-top: 40px;
+  border-left: 4px solid #003E8E;
+  padding-left: 43px;
+}
+.seccion_contacto .qr_contacto .datos_contacto .datosContacto p {
+  color: #003E8E;
+  font-size: 29px;
+  font-family: "Neue Thin", sans-serif;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+footer {
+  background-color: #003E8E;
+  text-align: center;
+}
+footer p {
+  font-family: "Neue Thin", sans-serif;
+  color: #FFFFFF;
+  padding: 44px 0;
+  margin: 0;
+  font-size: 18px;
+}
+footer p span {
+  font-family: "Neue Bold", sans-serif;
+}
+
+.float {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 40px;
+  right: 40px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  font-size: 30px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
 }
 
 @media (max-width: 600px) {
@@ -185,9 +334,6 @@ a {
     display: flex;
     justify-content: center;
   }
-  .centrar_logo .navbar-brand {
-    margin-right: 0;
-  }
   .centrar_logo .logo {
     width: 126px;
   }
@@ -203,7 +349,8 @@ a {
     padding: 25px 37px;
   }
   .container_bienvenidos {
-    padding: 40px 60px 40px 60px;
+    padding: 40px 40px 20px 40px;
+    width: 100%;
   }
   .container_bienvenidos .logoAzul {
     width: 170px;
@@ -211,18 +358,36 @@ a {
     margin-left: auto;
     margin-right: auto;
   }
+  .container_bienvenidos .texto_bienvenidos {
+    padding: 20px 0px;
+  }
+  .container_bienvenidos .texto_bienvenidos p {
+    font-size: 12px;
+  }
   .container_bienvenidos .texto_bienvenidos .bienvenidos {
     font-size: 30px;
   }
   .detalles {
-    margin-top: 9vh;
+    padding: 20px 40px 20px 50px;
   }
   .detalles .detalles1 {
     width: 100vw;
-    padding-left: 42px;
+    padding: 0px;
+    justify-content: flex-start;
+    height: auto;
+  }
+  .detalles .detalles1 h3 {
+    line-height: 30px;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .detalles .detalles1 p {
+    font-size: 12px;
+    margin: 16px 0px;
+    line-height: 18.4px;
   }
   .detalles .detalles1 .lineaSeparadoraDetalles {
-    border-width: 2px;
+    border-width: 1.5px;
   }
   .detalles .detalles_fondo {
     width: 100vw;
@@ -230,14 +395,79 @@ a {
   }
   .detalles .detalles2 {
     width: 100vw;
-    padding-left: 42px;
+    padding: 0;
+    height: auto;
+  }
+  .detalles .detalles2 h3 {
+    display: inline;
+    line-height: 30px;
+    font-size: 20px;
+    margin: 20px 0px;
+  }
+  .detalles .detalles2 p {
+    font-size: 12px;
+    margin: 16px 0px;
+    line-height: 20px;
   }
   .detalles .detalles2 .lineaSeparadoraDetalles {
-    border-width: 2px;
+    border-width: 1.5px;
   }
   .detalles .detalles_fondo2 {
     width: 100%;
     height: 200px;
+  }
+  .obras_sociales {
+    display: none;
+  }
+  .obras_sociales_mobile {
+    display: flex;
+    flex-direction: column;
+  }
+  .obras_sociales_mobile img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 360px;
+  }
+  .seccion_servicios .titulo_servicios {
+    font-size: 20px;
+    width: 80%;
+    margin-bottom: 35px;
+  }
+  .seccion_servicios .containerServicios {
+    flex-direction: column;
+  }
+  .seccion_contacto .bgazul_mail {
+    height: 320px;
+    margin-top: 50px;
+  }
+  .seccion_contacto .bgazul_mail p {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .seccion_contacto .bgazul_mail button {
+    font-size: 20px;
+    padding: 20px 35px;
+  }
+  .seccion_contacto .qr_contacto {
+    margin: 40px 0;
+  }
+  .seccion_contacto .qr_contacto .imagenQr {
+    width: 120px;
+  }
+  .seccion_contacto .qr_contacto .datos_contacto {
+    margin-left: 20px;
+  }
+  .seccion_contacto .qr_contacto .datos_contacto .logoAzulContacto {
+    width: 150px;
+  }
+  .seccion_contacto .qr_contacto .datos_contacto .datosContacto {
+    margin-top: 20px;
+    padding-left: 15px;
+  }
+  .seccion_contacto .qr_contacto .datos_contacto .datosContacto p {
+    font-size: 12px;
+    margin: 0;
+    margin-bottom: 20px;
   }
 }
 @media (max-width: 991px) and (min-width: 601px) {
@@ -256,6 +486,70 @@ a {
   }
   .container_bienvenidos {
     padding: 70px 120px 70px 95px;
+  }
+  .detalles {
+    height: auto;
+  }
+  .detalles .detalles1 {
+    height: auto;
+  }
+  .detalles .detalles1 h3 {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 20px 0px;
+  }
+  .detalles .detalles1 p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .detalles .detalles2 {
+    height: auto;
+  }
+  .detalles .detalles2 h3 {
+    font-size: 30px;
+    line-height: 40px;
+    margin: 20px 0px;
+  }
+  .detalles .detalles2 p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .seccion_servicios .containerServicios {
+    display: flex;
+    flex-direction: column;
+  }
+  .seccion_contacto .bgazul_mail {
+    height: 320px;
+    margin-top: 50px;
+  }
+  .seccion_contacto .bgazul_mail p {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+  .seccion_contacto .bgazul_mail button {
+    font-size: 20px;
+    padding: 20px 35px;
+  }
+  .seccion_contacto .qr_contacto {
+    margin: 75px 0;
+  }
+  .seccion_contacto .qr_contacto .imagenQr {
+    width: 218px;
+  }
+  .seccion_contacto .qr_contacto .datos_contacto {
+    margin-left: 40px;
+  }
+  .seccion_contacto .qr_contacto .datos_contacto .logoAzulContacto {
+    width: 300px;
+  }
+  .seccion_contacto .qr_contacto .datos_contacto .datosContacto {
+    margin-top: 20px;
+    padding-left: 25px;
+  }
+  .seccion_contacto .qr_contacto .datos_contacto .datosContacto p {
+    font-size: 24px;
+    margin: 0;
+    margin-bottom: 20px;
   }
 }
 @media (min-width: 992px) {
