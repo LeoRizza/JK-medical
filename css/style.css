@@ -349,7 +349,7 @@ footer p span {
     margin-right: 0;
   }
   .centrar_logo .logo {
-    min-width: 100px;
+    width: 50vw;
   }
   .texto_bienvenidos {
     margin-top: 23px;
